@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" href="terminal.css">
+		<script src="typewriting.min.js"></script>
+
+	</head>
+	<body>
+
+<div class="terminal"></div>
+
+
+	</body>
+
+
+	<script type="text/javascript">
+
+		var typeWriting = new TypeWriting({
+
+		    targetElement   : document.getElementsByClassName('terminal')[0],
+
+		    inputString     : 'Hello, <br> <br> You are invited to solve a cypher. You will be transmitted to it soon. Please wait & Good Luck! <br> <br>  -Alfin',
+
+		    typing_interval : 130, // Interval between each character
+
+		    blink_interval  : '1s', // Interval of the cursor blinks
+
+		    cursor_color    : '#00fd55', // Color of the cursor
+
+		    }, function() {
+
+		    console.log("END");
+
+		});
+
+		function puzzle(){
+			window.location='Cypher.html'
+		};
+
+		setTimeout(puzzle, 20000);
+
+
+
+
+
+	</script>
+
+
+
+</html>
