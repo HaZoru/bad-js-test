@@ -1,0 +1,105 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+html {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+body {
+	height: calc(100vh - 8em);
+	padding: 4em;
+	color: rgba(225, 255, 255, 0.75);
+	font-family: 'Anonymous Pro', monospace;
+	background-color: rgba(25, 25, 25);
+}
+
+.line {
+	position: relative;
+	top: 50%;
+	width: 16em;
+	margin: 0 auto;
+	border-right: 2px solid rgba(255, 255, 255, 0.75);
+	font-size: 180%;
+	text-align: center;
+	white-space: nowrap;
+	overflow: hidden;
+	transform: translateY(-50%);
+}
+
+.line2 {
+	position: relative;
+	top: 50%;
+	width: 9em;
+	margin: 0 auto;
+	border-right: 2px solid ;
+	border-color: transparent;
+	font-size: 180%;
+	text-align: center;
+	white-space: nowrap;
+	overflow: hidden;
+	transform: translateY(-50%);
+}
+
+.anim-typewriter {
+	animation: typewriter 4s steps(40) 1s  normal both,
+	blinkTextCursor 500ms steps(40) infinite  normal;
+}
+
+@keyframes typewriter {
+
+	from {
+		width: 0;
+
+	}
+
+	to {
+		width: 16em;
+	}
+
+}
+
+@keyframes blinkTextCursor {
+
+	from {
+		border-right-color: rgba(255, 255, 255, 0.75);
+	}
+
+	to {
+		border-right-color: transparent;
+	}
+
+}
+
+ /* 2nd one */
+
+ .anim-typewriter2 {
+ 	animation: typewriter2 4s steps(40) 3s normal both,
+ 	blinkTextCursor2 500ms steps(40) infinite normal;
+ }
+
+ @keyframes typewriter2 {
+
+ 	from {
+ 		width: 0;
+
+ 	}
+
+ 	to {
+ 		width: 9em;
+ 	}
+
+ }
+
+ @keyframes blinkTextCursor2 {
+
+ 	from {
+ 		border-right-color: transparent;
+ 	}
+
+ 	to {
+ 		border-right-color: rgba(255, 255, 255, 0.75);
+ 	}
+
+
+
+ }
