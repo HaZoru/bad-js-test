@@ -12,3 +12,9 @@ body {
 	font-family: 'Anonymous Pro', monospace;
 	background-color: rgba(25, 25, 25);
 }
+
+@media only screen and (max-width: 1200px) {
+  body {
+    display: none;
+  }
+}
