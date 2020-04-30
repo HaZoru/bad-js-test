@@ -43,7 +43,7 @@ function sixLetter() {
 // codewords
 
 var code1 = "AC01"
-var code2 = "AC02"
+var code2 = "GC02"
 var code3 = "AC03"
 var code4 = "AC04"
 
@@ -51,13 +51,14 @@ var code4 = "AC04"
 
 var a = "z-k-e-h-m"
 var b = "a-g-z-q-z-s"
-var c = "a-h-m-b-x"
+var c = "z-f-m-z-k"
 var d = ""
 
 //de''
 
 var name1 = "alfin"
-name2 = "bharat"
+    name2 = "bharat"
+		name3 = "agnal"
 
 
 
@@ -78,6 +79,13 @@ function getValue() {
 		sixLetter();
 		showNew();
 
+	} else if (val == code3) {
+
+		blockDisplay();
+		document.getElementById('lan').innerHTML = c;
+		fiveLetter();
+		showNew();
+
 	} else {
 		window.location = "b.html";
 	}
@@ -93,8 +101,10 @@ function getVal() {
 	if (la == name1) {
 		alert("right");
 	} else if (la == name2) {
-		alert("right2");
-	} else {
+		alert("right");
+	} else if (la == name3) {
+		alert("right");
+	}else {
 		alert("wrong");
 	}
 }
