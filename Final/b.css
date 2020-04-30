@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
+
+html, body {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: rgba(25, 25, 25);
+}
+
+#g {
+	display: none;
+}
+
+.textbox {
+	font-family: 'Anonymous Pro', monospace;
+	color: #fff;
+	font-size: 30px;
+	letter-spacing: 12px;
+	font-weight: 600;
+	position: absolute;
+	top: 65%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	cursor: default;
+	width: 50px;
+	border: 2px solid;
+	border-radius: 15px 15px;
+	text-align: center;
+	height: 50px;
+	background-color: rgba(25, 25, 25);
+	outline: none;
+}
+
+.main {
+	top: 50%;
+	border-radius: 0px;
+	border: 0px;
+	width: 100%;
+	user-select: none;
+}
+
+@media only screen and (max-width: 1200px) {
+  body {
+    display: none;
+  }
+}
