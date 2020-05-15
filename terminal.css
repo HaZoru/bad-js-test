@@ -13,8 +13,16 @@ body {
 	background-color: rgba(25, 25, 25);
 }
 
+.ifinmobile{
+	display: none;
+}
+
 @media only screen and (max-width: 1200px) {
-  body {
+  .terminal, .text {
     display: none;
   }
+
+	.ifinmobile{
+		display: block;
+	}
 }
