@@ -15,20 +15,21 @@ body {
 
 .ifinmobile{
 	display: none;
-
 }
 
-/*@media only screen and (max-width: 1200px) {
-  .terminal, .text {
-    display: none;
-  }*/
 
+
+@media(max-width: 900px) {
+  
 	body{
-		font-size: 30px;
-		line-height: 40px;
-	}
-
-	.ifinmobile{
-		display: block;
-	}
+	font-size: 30px;
+	line-height: 40px;
 }
+
+.ifinmobile{
+	display: block;
+}
+
+}
+
+

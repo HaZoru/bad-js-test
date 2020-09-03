@@ -1,10 +1,10 @@
-//basic functions //
+//basic functions //   
 
 function blockDisplay() {
 	document.getElementById('a').style.display = "none";
 	document.getElementById('btn').style.display = "none";
 	document.getElementById('validate').style.display = "none";
-}
+}    																				// U know ure cheating by scrolling down ryt?//
 
 function showNew() {
 	document.getElementById('g').style.display = "block";
@@ -69,8 +69,8 @@ var d = "k-p-i-o"
 
 var name1 = "alfin"
     name2 = "bharat"
-		name3 = "agnal"
-		name4 = "john"
+    name3 = "agnal"
+    name4 = "john"
 
 
 
@@ -131,3 +131,5 @@ function getVal() {
 		alert("wrong");
 	}
 }
+
+// i havnt learnt PHP, so the data is completely open and another problem is i have to come here every time to edit the code! If u know a solution then DM or mail(alfinbaiju1@gmail.com) me.
