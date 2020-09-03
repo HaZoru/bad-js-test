@@ -19,17 +19,9 @@ body {
 
 
 
-@media(max-width: 900px) {
-  
-	body{
-	font-size: 30px;
-	line-height: 40px;
+@media(max-width: 900px){
+    .ifinmobile {
+        display: block;
+    }
 }
-
-.ifinmobile{
-	display: block;
-}
-
-}
-
 
